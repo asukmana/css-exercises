@@ -1,0 +1,17 @@
+.first-element.both-elements {
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+}
+
+.second-element.both-elements {
+    background-color: #ffff00;
+}
+
+/* .both-elements not needed
+use comma for grouping elements */
+.both-elements {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
