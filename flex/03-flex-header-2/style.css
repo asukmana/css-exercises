@@ -12,6 +12,15 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  /* asukmana */
+  padding: 8px;
+}
+
+.header, .left, .right, .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
 
 .profile-image {
@@ -45,4 +54,16 @@ a {
 
 ul {
   list-style-type: none;
+  /* asukmana */
+  margin: 0;
+  padding: 0;
+}
+
+/* asukmana */
+/* .left{
+  margin-right: auto;
+} */
+
+.right  {
+  margin-left: auto;
 }
