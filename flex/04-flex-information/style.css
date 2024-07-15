@@ -5,11 +5,36 @@ body {
 img {
   width: 100px;
   height: 100px;
+  /* asukmana */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  /* asukmana */
+  text-align:center;
+  margin-bottom: 32px;
+}
+
+/* asukmana */
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 52px;
+}
+
+/* asukmana */
+.text {
+  text-align: center;
+}
+
+/* asukmana */
+.barberry, .chili, .pepper, .saffron {
+  flex-basis: 200px;
 }
 
 /* do not edit this footer */
